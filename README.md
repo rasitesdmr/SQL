@@ -8,7 +8,7 @@
 * Tablolara veri eklemek için [buraya](https://github.com/rasitesdmr/SQL/blob/master/Tablo/BikeStores%20%20load%20data.sql) tıklayın.
 
 ## 📌 Microsoft Sql Server 
-* Sırayla adımları uygulayın.
+* Adımları sırayla uygulayın.
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/1.jpg">
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/2.jpg ">
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/3.jpg " width = "600">
