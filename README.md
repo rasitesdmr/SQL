@@ -13,11 +13,15 @@
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/2.jpg ">
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/3.jpg " width = "600" height="600">
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/4.jpg ">
-<img src = "https://github.com/rasitesdmr/SQL/blob/master/images/5.jpg "  width = "600">
-<img src = "https://github.com/rasitesdmr/SQL/blob/master/images/6.jpg "  width = "600">
-<img src = "https://github.com/rasitesdmr/SQL/blob/master/images/7.jpg "  width = "600">
+<img src = "https://github.com/rasitesdmr/SQL/blob/master/images/5.jpg "  width = "600" height="200">
+<img src = "https://github.com/rasitesdmr/SQL/blob/master/images/6.jpg "  width = "600" height="200">
+<img src = "https://github.com/rasitesdmr/SQL/blob/master/images/7.jpg "  width = "600" height="200">
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/8.jpg ">
-<img src = "https://github.com/rasitesdmr/SQL/blob/master/images/9.jpg "  width = "600">
-<img src = "https://github.com/rasitesdmr/SQL/blob/master/images/10.jpg "  width = "600">
+<img src = "https://github.com/rasitesdmr/SQL/blob/master/images/9.jpg "  width = "600" height="200">
+<img src = "https://github.com/rasitesdmr/SQL/blob/master/images/10.jpg "  width = "600" height="200">
+
+## UYARI
+* Tutorial.sql dosyası deneme dosyasıdır. 
+* Sorguları tek tek seçip çalıştırın.
 
 
