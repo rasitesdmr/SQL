@@ -1,4 +1,4 @@
-# 🔴 SQL NEDİR ?
+#  SQL NEDİR ?
 
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/sql1.png">
 
@@ -9,7 +9,7 @@
 * Bir programlama dili olmamasına karşın çoğu kişi tarafından bir dil olarak algılanır ve bilinir. 
 * Oysa tam anlamıyla veri tabanında kullanılabilecek bir alt dildir. 
 
-## 🟢 SQL Ne İşe Yarar ?
+## 📌 SQL Ne İşe Yarar ?
 
 * Veri tabanında var olan verileri kaydedebilirsiniz.
 * Veri tabanına yeni veriler çekebilirsiniz.
@@ -19,7 +19,7 @@
 * Veri tabanına ait yeni tablolar üretebilirsiniz.
 * Kimlerin veri tabanına bağlanarak verilere ulaşabileceğini ayarlayabilir, güvenlik ayarlarınızı bu doğrultuda değiştirebilirsiniz.
 
-## 🟢 SQL İle Kontrol Edebileceğiniz Veri Tabanları ? 
+## 📌 SQL İle Kontrol Edebileceğiniz Veri Tabanları ? 
 
 * MySQL
 * Mssql
@@ -40,7 +40,7 @@
 * Program geliştirirken SQL server ile gayet uyumlu olan Visual Basic.NET ya da C# kullanmanız daha olasıdır.
 * Uygulamayı bu program dilleriyle geliştirerek verilerinizi işledikten sonra T-SQL kodlarıyla istediğiniz platform üzerinde kullanmanız mümkün olacak.
 
-## T-SQL NEDİR ? 
+## 📌 T-SQL NEDİR ? 
 
 * Transact (işlem yapmak) SQL anlamına gelen kısaltmadır.
 * SQL server içinde barındırdığınız verilerin bir kullanıcıya ulaşmadan önce istemci yani Client ile akışını sağlayan sistemdir.
@@ -54,21 +54,21 @@
 * Database Engine
 * SQLOS
 
-## Database Engine ? 
+## 📌  Database Engine ? 
 
 * SQL Server'ın temel bileşeni Veritabanı Motorudur.
 * Veritabanı Motoru, sorguları işleyen bir ilişkisel motor ve veritabanı dosyalarını, sayfaları, dizinleri vb. yöneten bir depolama motorundan oluşur.
 
-### Relational Engine (İlişkisel Motor) ?
+###  Relational Engine (İlişkisel Motor) ?
 
  * İlişkisel motor, giriş sorgusuna dayalı olarak depolama motorundan veri ister ve sonuçları işler.
  * İlişkisel motorun bazı görevleri arasında sorgulama işlemi, bellek yönetimi, iş parçacığı ve görev yönetimi, arabellek yönetimi ve dağıtılmış sorgu işleme yer alır.
 
- ### Storage Engine (Depolama Motoru) ?
+ ###  Storage Engine (Depolama Motoru) ?
 
  * Depolama motoru, diskler ve SAN gibi depolama sistemlerinden verilerin depolanmasından ve alınmasından sorumludur.
 
-## SQLOS ?
+## 📌  SQLOS ?
 * İlişkisel motor ve depolama motorunun altında SQL Server İşletim Sistemi veya SQLOS bulunur.
 * SQLOS, bellek ve G/Ç yönetimi gibi birçok işletim sistemi hizmeti sağlar.
 * Diğer hizmetler, istisna işleme ve senkronizasyon hizmetlerini içerir.
