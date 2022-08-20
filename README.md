@@ -59,12 +59,12 @@
 * SQL Server'ın temel bileşeni Veritabanı Motorudur.
 * Veritabanı Motoru, sorguları işleyen bir ilişkisel motor ve veritabanı dosyalarını, sayfaları, dizinleri vb. yöneten bir depolama motorundan oluşur.
 
-###  Relational Engine (İlişkisel Motor) ?
+### 🪄 Relational Engine (İlişkisel Motor) ?
 
  * İlişkisel motor, giriş sorgusuna dayalı olarak depolama motorundan veri ister ve sonuçları işler.
  * İlişkisel motorun bazı görevleri arasında sorgulama işlemi, bellek yönetimi, iş parçacığı ve görev yönetimi, arabellek yönetimi ve dağıtılmış sorgu işleme yer alır.
 
- ###  Storage Engine (Depolama Motoru) ?
+ ### 🪄 Storage Engine (Depolama Motoru) ?
 
  * Depolama motoru, diskler ve SAN gibi depolama sistemlerinden verilerin depolanmasından ve alınmasından sorumludur.
 
