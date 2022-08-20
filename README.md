@@ -1,4 +1,4 @@
-#  SQL NEDİR ?
+# 🎯 SQL NEDİR ?
 
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/sql1.png">
 
@@ -28,7 +28,7 @@
 * IBM Database 2 (IBM DB2)
 * PostgreSQL
 
-# SQL Server Nedir ?
+# 🎯 SQL Server Nedir ?
 
 <img src ="https://github.com/rasitesdmr/SQL/blob/master/images/sql2.jfif">
 
@@ -46,7 +46,7 @@
 * SQL server içinde barındırdığınız verilerin bir kullanıcıya ulaşmadan önce istemci yani Client ile akışını sağlayan sistemdir.
 * Kolay kullanımı ile çok tercih edilmektedir.
 
-# SQL Server Mimarisi ? 
+# 🎯 SQL Server Mimarisi ? 
 
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/sql3.png">
 
