@@ -1,4 +1,4 @@
-# 🟥 SQL NEDİR ?
+# 🔹 SQL NEDİR ?
 
 <img src = "https://github.com/rasitesdmr/SQL/blob/master/images/sql1.png">
 
@@ -9,7 +9,7 @@
 * Bir programlama dili olmamasına karşın çoğu kişi tarafından bir dil olarak algılanır ve bilinir. 
 * Oysa tam anlamıyla veri tabanında kullanılabilecek bir alt dildir. 
 
-## 🟨 SQL Ne İşe Yarar ?
+## 🔸 SQL Ne İşe Yarar ?
 
 * Veri tabanında var olan verileri kaydedebilirsiniz.
 * Veri tabanına yeni veriler çekebilirsiniz.
