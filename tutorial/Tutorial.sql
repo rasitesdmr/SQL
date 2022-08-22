@@ -32,38 +32,66 @@ Select city , COUNT(city) as KacAdet FROM sales.customers where [state] ='CA' GR
     Grupları bir veya daha fazla koşula göre filtrelemek için HAVING yan tümcesini kullanırsınız. 
     Aşağıdaki örnek, ondan fazla müşterisi olan Kaliforniya'daki şehri döndürür:
 */
-Select city , COUNT(city) as KacAdet FROM sales.customers where [state] ='CA' GROUP by city HAVING COUNT(city) >10 ORDER BY city;
+Select city , COUNT(city) as KacAdet 
+FROM sales.customers 
+where [state] ='CA' 
+GROUP by city HAVING COUNT(city) >10 
+ORDER BY city;
 
 --  Aşağıdaki örnek, en pahalı 10 ürünü döndürmek için sabit bir değer kullanır --
-Select TOP 10  product_name , list_price FROM production.products ORDER BY list_price DESC;
+Select TOP 10  product_name , list_price 
+FROM production.products 
+ORDER BY list_price DESC;
 
 /*
     Bazen, bir tablonun belirli bir sütununda yalnızca farklı değerler almak isteyebilirsiniz. 
     Bunu yapmak için SELECT DISTINCT yan tümcesini kullanırız.
 */
-Select DISTINCT city from sales.customers ORDER BY city;
+Select DISTINCT city 
+from sales.customers 
+ORDER BY city;
 
 --  Bir değerin bir listedeki veya bir alt sorgudaki herhangi bir değerle eşleşip eşleşmediğini kontrol edir --
-Select product_name , list_price FROM production.products WHERE list_price IN (89.99,109.99,159.99);
+Select product_name , list_price 
+FROM production.products 
+WHERE list_price IN (89.99,109.99,159.99);
 
 --  BETWEEN operatörü, test edilecek bir aralık belirlemenize izin veren mantıksal bir operatördür.--
-Select product_name , list_price FROM production.products WHERE list_price BETWEEN 149.99 AND 199.99 ORDER by list_price;
+Select product_name , list_price 
+FROM production.products
+WHERE list_price BETWEEN 149.99 AND 199.99 
+ORDER by list_price;
 
 --  Bir karakter dizisinin belirli bir kalıpla eşleşip eşleşmediğini kontrol etmek için kullanılır.--
 --  a ile başlıyanları getirdi --
 --  '_a%' , '%a%' , '%a' vb.--
-Select first_name  FROM sales.customers WHERE first_name LIKE 'a%';
+Select first_name  
+FROM sales.customers 
+WHERE first_name LIKE 'a%';
 
 --  İç birleştirme, sol tablodaki satırları içeren ve sağdaki tablodaki satırlarla eşleşen bir veri kümesi üretir.--
-SELECT c.customer_id , c.first_name , o.customer_id , o.order_id from sales.customers c INNER JOIN sales.orders o ON c.customer_id = o.customer_id;
+SELECT c.customer_id , c.first_name , o.customer_id , o.order_id 
+from sales.customers c 
+INNER JOIN sales.orders o 
+ON c.customer_id = o.customer_id;
 
 --  NOT : Sol tarafta nul varsa onuda getirir. --
-SELECT c.customer_id , c.first_name , o.customer_id , o.order_id from sales.customers c LEFT JOIN sales.orders o ON c.customer_id = o.customer_id;
+SELECT c.customer_id , c.first_name , o.customer_id , o.order_id 
+from sales.customers c 
+LEFT JOIN sales.orders o 
+ON c.customer_id = o.customer_id;
 
 --  NOT : Sağ tarafta nul varsa onuda getirir. --
-SELECT c.customer_id , c.first_name , o.customer_id , o.order_id from sales.customers c RIGHT JOIN sales.orders o ON c.customer_id = o.customer_id where c.customer_id IS Null;
+SELECT c.customer_id , c.first_name , o.customer_id , o.order_id 
+from sales.customers c 
+RIGHT JOIN sales.orders o 
+ON c.customer_id = o.customer_id 
+where c.customer_id IS Null;
 
-SELECT c.customer_id , c.first_name , o.customer_id , o.order_id from sales.customers c FULL JOIN sales.orders o ON c.customer_id = o.customer_id;
+SELECT c.customer_id , c.first_name , o.customer_id , o.order_id 
+from sales.customers c 
+FULL JOIN sales.orders o 
+ON c.customer_id = o.customer_id;
 
 /*
     Saklı yordamı ilk kez çağırdığınızda, SQL Server bir yürütme planı oluşturur ve bunu önbellekte saklar. 
